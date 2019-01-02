@@ -17,15 +17,6 @@
 		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Instrument/Instrument.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="SR7270 Configure Sensitivity - Single Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/SR7270LV8/SR7270LV8.llb/SR7270 Configure Sensitivity - Single Reference.vi"/>
-				<Item Name="SR7270 Configure Signal Channel Input.vi" Type="VI" URL="/&lt;instrlib&gt;/SR7270LV8/SR7270LV8.llb/SR7270 Configure Signal Channel Input.vi"/>
-				<Item Name="SR7270 Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/SR7270LV8/SR7270LV8.llb/SR7270 Initialize.vi"/>
-				<Item Name="SR7270 Read Output.vi" Type="VI" URL="/&lt;instrlib&gt;/SR7270LV8/SR7270LV8.llb/SR7270 Read Output.vi"/>
-				<Item Name="SR7270 Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/SR7270LV8/SR7270LV8.llb/SR7270 Reset.vi"/>
-				<Item Name="SR7270 RS232 Single Command I-O.vi" Type="VI" URL="/&lt;instrlib&gt;/SR7270LV8/SR7270LV8.llb/SR7270 RS232 Single Command I-O.vi"/>
-				<Item Name="SR7270 VISA Write/Read.vi" Type="VI" URL="/&lt;instrlib&gt;/SR7270LV8/SR7270LV8.llb/SR7270 VISA Write/Read.vi"/>
-			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
