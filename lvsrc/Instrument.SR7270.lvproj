@@ -15,6 +15,7 @@
 			<Item Name="SR7220 UI.lvclass" Type="LVClass" URL="../SMOs/SR7270 UI/SR7220 UI.lvclass"/>
 			<Item Name="SR7270 Drivers.lvclass" Type="LVClass" URL="../SMOs/Instrument.SR7270/Driver/SR7270 Drivers.lvclass"/>
 		</Item>
+		<Item Name="Instrument.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Instrument/Instrument.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="SR7270 Configure Sensitivity - Single Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/SR7270LV8/SR7270LV8.llb/SR7270 Configure Sensitivity - Single Reference.vi"/>
@@ -236,7 +237,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Configuration.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Configuration/Configuration.lvclass"/>
-			<Item Name="Instrument.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Instrument/Instrument.lvclass"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
