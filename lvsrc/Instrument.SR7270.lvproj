@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -15,7 +16,14 @@
 			<Item Name="SR7270 Drivers.lvclass" Type="LVClass" URL="../SMOs/Instrument.SR7270/Driver/SR7270 Drivers.lvclass"/>
 			<Item Name="SR7270 UI.lvclass" Type="LVClass" URL="../SMOs/SR7270 UI/SR7270 UI.lvclass"/>
 		</Item>
-		<Item Name="Instrument.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Instrument/Instrument.lvclass"/>
+		<Item Name="Instrument" Type="Folder">
+			<Item Name="Instrument.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Instrument/Instrument.lvclass"/>
+			<Item Name="Configuration.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Configuration/Configuration.lvclass"/>
+			<Item Name="Logger.DSC.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Logger.DSC/Logger.DSC.lvclass"/>
+			<Item Name="Logger.syslog.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Logger.syslog/Logger.syslog.lvclass"/>
+			<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/SMOs/RemoteControl/RemoteControl.lvclass"/>
+			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
+		</Item>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../../../../../../Users/Patrick/Desktop/Error Log/Untitled 1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -501,11 +509,9 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Configuration.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Configuration/Configuration.lvclass"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Logger.DSC.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Logger.DSC/Logger.DSC.lvclass"/>
 			<Item Name="logosbrw.dll" Type="Document" URL="/&lt;resource&gt;/logosbrw.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -519,8 +525,6 @@
 			<Item Name="NVIORef.dll" Type="Document" URL="NVIORef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/SMOs/RemoteControl/RemoteControl.lvclass"/>
-			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
 			<Item Name="SCT Default Types.ctl" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Default Types.ctl"/>
 			<Item Name="SCT Get LVRTPath.vi" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Get LVRTPath.vi"/>
 			<Item Name="SCT Get Types.vi" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Get Types.vi"/>
