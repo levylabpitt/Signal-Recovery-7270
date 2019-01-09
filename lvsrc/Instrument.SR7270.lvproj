@@ -652,6 +652,45 @@
 			</Item>
 			<Item Name="SR7270 Drivers.lvlib" Type="Library" URL="../SMOs/Instrument.SR7270/Driver/SR7270 Drivers.lvlib"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Instrument.SR7270" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{02D27E55-6209-4393-B2BC-8AEFE28AEA87}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{D6AD0B30-C076-48E3-BDB6-44980026FC5E}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{5D9FA533-ED00-4B9B-A047-FC692CF995FE}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Instrument.SR7270</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Instrument.SR7270</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{1C46DC62-0A46-47BC-8F48-70E1E23391AA}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Instrument.SR7270.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Instrument.SR7270/Instrument.SR7270.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Instrument.SR7270/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4C8DA52C-DE7C-4D82-8E40-E6D1745E62E8}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SMOs/Instrument.SR7270.lvclass/AppLauncher.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">University of Pittsburgh</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Instrument.SR7270</Property>
+				<Property Name="TgtF_internalName" Type="Str">Instrument.SR7270</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 University of Pittsburgh</Property>
+				<Property Name="TgtF_productName" Type="Str">Instrument.SR7270</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{E48F3309-244F-465D-81BB-A51AA69155EB}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Instrument.SR7270.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
