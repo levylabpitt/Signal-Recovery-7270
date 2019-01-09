@@ -13,7 +13,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SMOs" Type="Folder">
 			<Item Name="Instrument.SR7270.lvclass" Type="LVClass" URL="../SMOs/Instrument.SR7270/Instrument.SR7270.lvclass"/>
-			<Item Name="SR7270 Drivers.lvclass" Type="LVClass" URL="../SMOs/Instrument.SR7270/Driver/SR7270 Drivers.lvclass"/>
 			<Item Name="SR7270 UI.lvclass" Type="LVClass" URL="../SMOs/SR7270 UI/SR7270 UI.lvclass"/>
 		</Item>
 		<Item Name="Instrument" Type="Folder">
@@ -648,6 +647,10 @@
 			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="SR7270 Drivers.lvlib" Type="Library" URL="../SMOs/Instrument.SR7270/Driver/SR7270 Drivers.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

@@ -94,7 +94,6 @@
 			<Item Name="ConvertSensitivityStringtoDouble.vi" Type="VI" URL="../ConvertSensitivityStringtoDouble.vi"/>
 			<Item Name="ConvertTimeConstantString.vi" Type="VI" URL="../ConvertTimeConstantString.vi"/>
 		</Item>
-		<Item Name="Write VISA resource name.vi" Type="VI" URL="../Write VISA resource name.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Item Name="ConvertSENIndextoSensitivityString.vi" Type="VI" URL="../ConvertSENIndextoSensitivityString.vi"/>
@@ -113,29 +112,32 @@
 			<Item Name="Test Oscillator f.vi" Type="VI" URL="../Tests/Test Oscillator f.vi"/>
 		</Item>
 		<Item Name="Reference Channel" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Test Reference Channel.vi" Type="VI" URL="../Tests/Test Reference Channel.vi"/>
 			<Item Name="Test Autophase.vi" Type="VI" URL="../Tests/Test Autophase.vi"/>
 			<Item Name="Test Reference Channel Source.vi" Type="VI" URL="../Tests/Test Reference Channel Source.vi"/>
-			<Item Name="Test Reference Channel.vi" Type="VI" URL="../Tests/Test Reference Channel.vi"/>
 			<Item Name="Test Reference Harmonic.vi" Type="VI" URL="../Tests/Test Reference Harmonic.vi"/>
 			<Item Name="Test Reference Mode.vi" Type="VI" URL="../Tests/Test Reference Mode.vi"/>
 			<Item Name="Test Reference Phase.vi" Type="VI" URL="../Tests/Test Reference Phase.vi"/>
 			<Item Name="Test Virtual Reference Mode.vi" Type="VI" URL="../Tests/Test Virtual Reference Mode.vi"/>
 		</Item>
 		<Item Name="Signal Channel" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Test Signal Channel.vi" Type="VI" URL="../Tests/Test Signal Channel.vi"/>
 			<Item Name="Test AC Gain.vi" Type="VI" URL="../Tests/Test AC Gain.vi"/>
 			<Item Name="Test Current Mode.vi" Type="VI" URL="../Tests/Test Current Mode.vi"/>
 			<Item Name="Test DC Couple.vi" Type="VI" URL="../Tests/Test DC Couple.vi"/>
 			<Item Name="Test FET.vi" Type="VI" URL="../Tests/Test FET.vi"/>
 			<Item Name="Test Float.vi" Type="VI" URL="../Tests/Test Float.vi"/>
 			<Item Name="Test Line Filter.vi" Type="VI" URL="../Tests/Test Line Filter.vi"/>
-			<Item Name="Test Signal Channel.vi" Type="VI" URL="../Tests/Test Signal Channel.vi"/>
 			<Item Name="Test V Mode Sens.vi" Type="VI" URL="../Tests/Test V Mode Sens.vi"/>
 			<Item Name="Test V Mode.vi" Type="VI" URL="../Tests/Test V Mode.vi"/>
 		</Item>
 		<Item Name="Signal Channel Output Filters" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Test Signal Channel Output Filters.vi" Type="VI" URL="../Tests/Test Signal Channel Output Filters.vi"/>
 			<Item Name="Test Noise Buffer Length.vi" Type="VI" URL="../Tests/Test Noise Buffer Length.vi"/>
 			<Item Name="Test Noise Mode.vi" Type="VI" URL="../Tests/Test Noise Mode.vi"/>
-			<Item Name="Test Signal Channel Output Filters.vi" Type="VI" URL="../Tests/Test Signal Channel Output Filters.vi"/>
 			<Item Name="Test Slope.vi" Type="VI" URL="../Tests/Test Slope.vi"/>
 			<Item Name="Test Sync.vi" Type="VI" URL="../Tests/Test Sync.vi"/>
 			<Item Name="Test Time Constant.vi" Type="VI" URL="../Tests/Test Time Constant.vi"/>
@@ -176,5 +178,4 @@
 			<Item Name="SWEEP--enum.ctl" Type="VI" URL="../Typedefs/SWEEP--enum.ctl"/>
 		</Item>
 	</Item>
-	<Item Name="SR7270 Drivers.lvclass" Type="LVClass" URL="../SR7270 Drivers.lvclass"/>
 </Library>
