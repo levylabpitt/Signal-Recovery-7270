@@ -13,10 +13,10 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SMOs" Type="Folder">
 			<Item Name="Instrument.SR7270.lvclass" Type="LVClass" URL="../SMOs/Instrument.SR7270/Instrument.SR7270.lvclass"/>
-			<Item Name="SR7270 Drivers.lvclass" Type="LVClass" URL="../SMOs/Instrument.SR7270/Driver/SR7270 Drivers.lvclass"/>
 			<Item Name="SR7270 UI.lvclass" Type="LVClass" URL="../SMOs/SR7270 UI/SR7270 UI.lvclass"/>
 		</Item>
 		<Item Name="Instrument" Type="Folder">
+			<Item Name="LevyLab.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/LevyLab/LevyLab.lvclass"/>
 			<Item Name="Instrument.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Instrument/Instrument.lvclass"/>
 			<Item Name="Configuration.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Configuration/Configuration.lvclass"/>
 			<Item Name="Logger.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Logger/Logger.lvclass"/>
@@ -26,7 +26,6 @@
 			<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/SMOs/RemoteControl/RemoteControl.lvclass"/>
 			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
 		</Item>
-		<Item Name="LevyLab.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/LevyLab/LevyLab.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -648,6 +647,10 @@
 			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="SR7270 Drivers.lvlib" Type="Library" URL="../SMOs/Instrument.SR7270/Driver/SR7270 Drivers.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
