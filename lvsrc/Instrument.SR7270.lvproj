@@ -11,21 +11,17 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="SMOs" Type="Folder">
-			<Item Name="Instrument.SR7270.lvclass" Type="LVClass" URL="../SMOs/Instrument.SR7270/Instrument.SR7270.lvclass"/>
-			<Item Name="SR7270 UI.lvclass" Type="LVClass" URL="../SMOs/SR7270 UI/SR7270 UI.lvclass"/>
-		</Item>
-		<Item Name="Instrument" Type="Folder">
-			<Item Name="Instrument.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Instrument/Instrument.lvclass"/>
-			<Item Name="Configuration.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Configuration/Configuration.lvclass"/>
-			<Item Name="Logger.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Logger/Logger.lvclass"/>
-			<Item Name="Logger.DSC.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Logger.DSC/Logger.DSC.lvclass"/>
-			<Item Name="Logger.Error.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Logger.Error/Logger.Error.lvclass"/>
-			<Item Name="Logger.syslog.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Logger.syslog/Logger.syslog.lvclass"/>
-			<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/SMOs/RemoteControl/RemoteControl.lvclass"/>
-			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
-		</Item>
+		<Item Name="Instrument.SR7270.lvclass" Type="LVClass" URL="../SMOs/Instrument.SR7270/Instrument.SR7270.lvclass"/>
+		<Item Name="Instrument.SR7270 UI.lvclass" Type="LVClass" URL="../SMOs/SR7270 UI/Instrument.SR7270 UI.lvclass"/>
 		<Item Name="LevyLab.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/LevyLab/LevyLab.lvclass"/>
+		<Item Name="Instrument.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Instrument/Instrument.lvclass"/>
+		<Item Name="Configuration.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Configuration/Configuration.lvclass"/>
+		<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/SMOs/RemoteControl/RemoteControl.lvclass"/>
+		<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
+		<Item Name="Logger.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Logger/Logger.lvclass"/>
+		<Item Name="Logger.DSC.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Logger.DSC/Logger.DSC.lvclass"/>
+		<Item Name="Logger.Error.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Logger.Error/Logger.Error.lvclass"/>
+		<Item Name="Logger.syslog.lvclass" Type="LVClass" URL="../../../levylab_inst/lvsrc/SMOs/Logger.syslog/Logger.syslog.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -668,6 +664,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1C46DC62-0A46-47BC-8F48-70E1E23391AA}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Instrument.SR7270.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Instrument.SR7270/Instrument.SR7270.exe</Property>
@@ -679,11 +676,12 @@
 				<Property Name="Source[0].itemID" Type="Str">{4C8DA52C-DE7C-4D82-8E40-E6D1745E62E8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SMOs/Instrument.SR7270.lvclass/AppLauncher.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Instrument.SR7270.lvclass/AppLauncher.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">University of Pittsburgh</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Instrument.SR7270</Property>
 				<Property Name="TgtF_internalName" Type="Str">Instrument.SR7270</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 University of Pittsburgh</Property>
